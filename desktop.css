@@ -1,5 +1,13 @@
 .firstSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20rem;
+    margin: 2rem 10rem;
+}
+.firstSection__photoHydra{
+    width: 30rem;
+}
+.header__logoHumburger{
+    width: 2rem;
+    position: absolute;
+    left: 850%;
 }
