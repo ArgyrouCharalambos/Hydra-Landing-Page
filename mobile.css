@@ -8,16 +8,23 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(48, 44, 66);
     padding: 10px 15px;
+    position: absolute;
+    align-items: center;
 }
 .header__logoHydra{
     width: 7rem;
 }
 .header__logoHumburger{
     width: 2rem;
+    position: absolute;
+    left: 230%;
 }
 .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
     background-color: rgb(48, 44, 66);
 }
 .firstSection{
@@ -48,12 +55,14 @@ body{
 .localisation{
     display: flex;
     align-items: center;
-    padding: 20px;
-    border-radius: 30px;
-    background-color: aqua;
+    padding: 20px 40px;
+    border-radius: 80px;
+    background-color:#3A3456F2;
+    width: 80%;
+    gap: 10px;
 }
 .localisation__logo{
-    width: 50px;
+    width: 40px;
 }
 .localisation__texte{
     color: white;
