@@ -51,6 +51,12 @@ body{
     font-weight: bold;
     border-radius: 25px;
     text-align: center;
+    transition: 1s;
+}
+.firstSection__lien:hover{
+    border: 1px solid  rgb(184, 175, 224);
+    background-color: #3A3456F2;
+    color: white;
 }
 .localisation{
     display: flex;
