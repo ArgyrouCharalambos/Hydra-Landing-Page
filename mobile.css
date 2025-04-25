@@ -8,7 +8,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 10px 30px;
     position: absolute;
     align-items: center;
 }
@@ -16,9 +16,8 @@ body{
     width: 7rem;
 }
 .header__logoHumburger{
-    width: 2rem;
-    position: absolute;
-    left: 230%;
+    height: 5px;
+    width: 5px;
 }
 .main{
     display: flex;
