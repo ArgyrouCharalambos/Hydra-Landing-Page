@@ -1,79 +1,79 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 15px;
-    position: absolute;
-    align-items: center;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  position: absolute;
+  align-items: center;
 }
-.header__logoHydra{
-    width: 8rem;
+.header__logoHydra {
+  width: 8rem;
 }
-.header__logoHydra2{
-    width: 3rem;
+.header__logoHydra2 {
+  width: 3rem;
 }
-.header__logoHumburger{
-    width: 2rem;
-    position: relative;
-    left: 260px;
+.header__logoHumburger {
+  width: 2rem;
+  position: relative;
+  left: 260px;
 }
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    background-color: rgb(48, 44, 66);
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: rgb(48, 44, 66);
 }
-.firstSection{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.firstSection__groupeDescription{
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
+.firstSection__groupeDescription {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
 }
-.firstSection__photoHydra{
-    width: 25rem;
+.firstSection__photoHydra {
+  width: 25rem;
 }
-.firstSection__logoTexte{
-    width: 298px;
+.firstSection__logoTexte {
+  width: 298px;
 }
-.firstSection__lien{
-    background-color: rgb(184, 175, 224);
-    color: black;
-    text-decoration: none;
-    padding:15px 10px;
-    font-weight: bold;
-    border-radius: 25px;
-    text-align: center;
-    transition: 1s;
+.firstSection__lien {
+  background-color: rgb(184, 175, 224);
+  color: black;
+  text-decoration: none;
+  padding: 15px 10px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-align: center;
+  transition: 1s;
 }
-.firstSection__lien:hover{
-    border: 1px solid  rgb(184, 175, 224);
-    background-color: #3A3456F2;
-    color: white;
+.firstSection__lien:hover {
+  border: 1px solid rgb(184, 175, 224);
+  background-color: #3a3456f2;
+  color: white;
 }
-.localisation{
-    display: flex;
-    align-items: center;
-    padding: 20px 40px;
-    border-radius: 80px;
-    background-color:#3A3456F2;
-    width: 80%;
-    gap: 10px;
+.localisation {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 80px;
+  background-color: #3a3456f2;
+  width: 80%;
+  gap: 10px;
 }
-.localisation__logo{
-    width: 40px;
+.localisation__logo {
+  width: 40px;
 }
-.localisation__texte{
-    color: white;
-    font-size: 14px;
+.localisation__texte {
+  color: white;
+  font-size: 14px;
 }
