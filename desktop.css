@@ -9,5 +9,7 @@
 .header__logoHumburger {
   width: 2rem;
   position: absolute;
-  left: 850%;
+  left: 750%;
+  background-color:  rgb(48, 44, 66);
+  border: none;
 }
