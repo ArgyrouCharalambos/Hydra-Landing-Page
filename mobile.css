@@ -76,4 +76,5 @@ body {
 .localisation__texte {
   color: white;
   font-size: 14px;
+  font-weight: bold;
 }
